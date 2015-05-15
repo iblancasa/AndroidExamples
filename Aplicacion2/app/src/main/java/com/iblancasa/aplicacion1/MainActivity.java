@@ -1,4 +1,4 @@
-package com.iblancasa.aplicacion2;
+package com.iblancasa.aplicacion1;
 
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
@@ -10,8 +10,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-
-import com.iblancasa.aplicacion1.R;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -70,7 +68,7 @@ public class MainActivity extends ActionBarActivity {
 
         RecyclerView.setHasFixedSize(true);//Fixed size for the RecyclerView
 
-        Adapter = new AdapterDrawer(TITLES,ICONS,NAME,EMAIL,PROFILE);//New adapter
+        Adapter = new AdapterDrawer(TITLES,ICONS,NAME,EMAIL,PROFILE,this);//New adapter
 
         RecyclerView.setAdapter(Adapter);//Set adapter
 
