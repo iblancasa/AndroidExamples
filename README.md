@@ -13,6 +13,15 @@ These codes have been uploaded directly from Android Studio. It is possible you 
 * Aplicacion2: Add a navigation drawer (using the previous code)
 
 
+####Aplicacion1
+![Toolbar](img/1.jpg)
+
+####Aplicacion2
+![Toolbar y Drawer](img/2.jpg)
+
+
+
+
 
 # Important links:
 
