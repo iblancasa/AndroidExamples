@@ -7,7 +7,7 @@ import android.os.IBinder;
 import android.util.Log;
 
 public class Service extends android.app.Service {
-
+    String TAG= "Hola";
 
     @Override
     public IBinder onBind(Intent arg0) {
